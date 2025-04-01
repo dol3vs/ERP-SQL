@@ -23,7 +23,7 @@ This project showcases a two-database architecture designed for importing, proce
 ### 1. `OfficeIntegration`
 This database is responsible for importing raw ERP data and preparing it for consumption.
 
-- **Tables**: Store raw ERP data (`Agents`, `Clients`, 'Products', etc.)
+- **Tables**: Store raw ERP data (`Agents`, `Clients`, `Products`, etc.)
 - **Views**: Filter and transform ERP data into business entities
 - **Stored Procedures**: Automate import processes (e.g. `SP_InsertData`, `SP_AutoImport`)
 - **Functions**: Utility calculations and business logic
