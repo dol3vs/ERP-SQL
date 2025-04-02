@@ -25,16 +25,12 @@ This database simulates the external ERP system. It contains raw, unfiltered bus
 - Original ERP document tables and fields
 - Used only for import into OfficeIntegration
 
----
-
 ### 2. `OfficeIntegration` – ETL Layer
 Responsible for pulling and transforming ERP data:
 - Connects to ERP or flat-file sources via views or APIs
 - Filters and normalizes data using SQL Server views
 - Contains stored procedures and functions for transformation logic
 - Outputs clean entities to be inserted into the Office DB
-
----
 
 ### 3. `Office` – Presentation Layer
 This is the final destination for clean, structured business data:
@@ -55,8 +51,6 @@ This is the final destination for clean, structured business data:
 ---
 
 ## 📁 Project Structure
-
-```
 
 Office-integration-sql/
 ├── README.md                       ✅ Project overview
