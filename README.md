@@ -50,9 +50,9 @@ This is the final destination for clean, structured business data:
 
 ---
 
-```
-
 ## 📁 Project Structure
+
+```
 
 Office-integration-sql/
 ├── README.md                       ✅ Project overview
