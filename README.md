@@ -12,7 +12,7 @@
 - Automates loading and updates using stored procedures
 - Delivers clean entities ready for reporting, dashboards, and client apps
 
-💡 It’s the foundation behind mobile dashboards, web portals, and business tools used by real clients — built with SQL Server 2022.
+💡 It’s the foundation behind mobile dashboards, web portals, and business tools used by real clients.
 🚀 I'm always learning, improving, and building tools that help businesses turn data into action.
 
 ---
