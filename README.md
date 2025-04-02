@@ -13,10 +13,10 @@ Hi, I’m Dolev — a Project Manager and SQL Server developer and project coord
 💾 I specialize in Microsoft SQL Server, automation, and translating business data into clean, usable tools.
 
 🧠 This repo showcases a three-database SQL Server system I built to:
-- Import ERP data (demo db)
-- Normalize and filter through views (Office Integration db)
-- Automate transformation via stored procedures (Office Integration db)
-- Present structured entities for BI and dashboards (Office db)
+- Import ERP data
+- Normalize and filter through views
+- Automate transformation via stored procedures
+- Present structured entities for BI and dashboards
 
 ---
 
