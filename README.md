@@ -71,6 +71,9 @@ Visual schema (click to view):
 ➡️ [View ERD via dbdiagram.io](https://dbdiagram.io)  
 Or paste from: [`erd/office_erd.dbml`](./erd/office_erd.dbml)
 
+![ERD Diagram](https://github.com/user-attachments/assets/4992fb8a-4c20-4f6f-b34a-4ea77e5cc304)
+
+
 ---
 
 ## 🔍 Example SQL Queries
