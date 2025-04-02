@@ -49,6 +49,7 @@ This is the presentation layer used by BI tools, dashboards, and client applicat
 ## 📁 Project Structure
 
 ```
+
 Office-integration-sql/
 ├── README.md                       ✅ Project overview
 ├── Office/
@@ -72,7 +73,6 @@ Visual schema (click to view):
 Or paste from: [`erd/office_erd.dbml`](./erd/office_erd.dbml)
 
 ![ERD Diagram](https://github.com/user-attachments/assets/4992fb8a-4c20-4f6f-b34a-4ea77e5cc304)
-
 
 ---
 
@@ -113,3 +113,10 @@ Database Developer & IT Support Specialist
 
 This project is part of a educational and professional portfolio. 
 All content is for demonstration purposes only.
+
+---
+
+## 📄 Resume
+
+You can view or download my CV here:  
+👉 [Dolev Sivan CV](./Dolev_Sivan_CV.pdf)
