@@ -1,9 +1,11 @@
 
 # 🧠 ERP Integration System (SQL Server)
 
-This project showcases a two-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. 
+This project showcases a three-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. 
 The system is split into three logical layers: 
-**OfficeIntegration** (processing Layer) / **Office** (Presentation Layer) / **ERP** (importing Layer).
+**OfficeIntegration** (processing Layer) 
+**Office** (Presentation Layer)
+**ERP** (importing Layer).
 
 ---
 
@@ -11,12 +13,6 @@ The system is split into three logical layers:
 
 Hi, I’m Dolev — a Project Manager and SQL Server developer and project coordinator with experience building data pipelines, integrating ERP systems, performance optimization, automation and supporting business dashboards.
 💾 I specialize in Microsoft SQL Server, automation, and translating business data into clean, usable tools.
-
-🧠 This repo showcases a three-database SQL Server system I built to:
-- Import ERP data
-- Normalize and filter through views
-- Automate transformation via stored procedures
-- Present structured entities for BI and dashboards
 
 ---
 
