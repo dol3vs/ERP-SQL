@@ -49,10 +49,11 @@ This is the presentation layer used by BI tools, dashboards, and client applicat
 
 Office-integration-sql/
 ├── README.md                       ✅ Project overview
+├── erp/
+│   └── schema/                     📂 Tables from ERP DB
 ├── Office/
 │   └── schema/                     📂 Tables from Office DB
 ├── Officeintegration/
-│   ├── schema/                     📂 Tables from Officeintegration DB
 │   ├── views/                      📂 ERP views
 │   ├── procedures/                 📂 Stored procedures
 │   └── functions/                  📂 User-defined functions
