@@ -1,31 +1,29 @@
 
+
+
 # 🧠 ERP Integration System (SQL Server)
+👋 Hi, I’m Dolev — a SQL Server Developer and Project Coordinator with a passion for building practical, real-world data systems.
 
-This project showcases a three-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. 
-The system is split into three logical layers: 
-**OfficeIntegration** (processing Layer) 
-**Office** (Presentation Layer)
-**ERP** (importing Layer).
+💾 This project demonstrates a two-database architecture built to solve a common business challenge: making ERP data accessible, actionable, and performance-optimized for daily business use.
 
----
+🔍 The system:
+- Connects to raw ERP sources via views and APIs
+- Filters, transforms, and normalizes the data
+- Automates loading and updates using stored procedures
+- Delivers clean entities ready for reporting, dashboards, and client apps
 
-## 👋 About Me
-
-Hi, I’m Dolev — a Project Manager and SQL Server developer and project coordinator with experience building data pipelines, integrating ERP systems, performance optimization, automation and supporting business dashboards.
-💾 I specialize in Microsoft SQL Server, automation, and translating business data into clean, usable tools.
-
----
-
+💡 It’s the foundation behind mobile dashboards, web portals, and business tools used by real clients — built with SQL Server 2022.
 🚀 I'm always learning, improving, and building tools that help businesses turn data into action.
+
+---
 
 ## 📦 Databases Overview
 
 ### 1. `OfficeIntegration`
 This database is responsible for importing raw ERP data and preparing it for consumption.
 
-- **Tables**: Store raw ERP data (`Agents`, `Clients`, `Products`, `DocumentsOutMain`, etc.)
 - **Views**: Filter and transform ERP data into business entities
-- **Stored Procedures**: Automate import processes (e.g. `SP_InsertData`, `SP_AutoImport`)
+- **Stored Procedures**: Automate import processes
 - **Functions**: Utility calculations and business logic
 
 ### 2. `Office`
