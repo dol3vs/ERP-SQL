@@ -14,7 +14,8 @@
 
 # 🧠 ERP Integration System (SQL Server)
 
-This project showcases a two-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. The system is split into two logical layers: **OfficeIntegration** (ETL Layer) and **Office** (Presentation Layer).
+This project showcases a two-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. The system is split into two logical layers: 
+**OfficeIntegration** (ETL Layer) and **Office** (Presentation Layer).
 
 ---
 
@@ -23,7 +24,7 @@ This project showcases a two-database architecture designed for importing, proce
 ### 1. `OfficeIntegration`
 This database is responsible for importing raw ERP data and preparing it for consumption.
 
-- **Tables**: Store raw ERP data (`Agents`, `Clients`, `Products`, etc.)
+- **Tables**: Store raw ERP data (`Agents`, `Clients`, `Products`, `DocumentsOutMain`, etc.)
 - **Views**: Filter and transform ERP data into business entities
 - **Stored Procedures**: Automate import processes (e.g. `SP_InsertData`, `SP_AutoImport`)
 - **Functions**: Utility calculations and business logic
@@ -31,7 +32,7 @@ This database is responsible for importing raw ERP data and preparing it for con
 ### 2. `Office`
 This is the presentation layer used by BI tools, dashboards, and client applications.
 
-- **Tables**: Final, cleaned data for business users (`Clients`, `Activities`, `DocumentsOutMain`, etc.)
+- **Tables**: Final, cleaned data for business users (`Agents`, `Clients`, `Products`, `DocumentsOutMain`, etc.)
 
 ---
 
