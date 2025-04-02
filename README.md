@@ -112,7 +112,7 @@ Database Developer & IT Support Specialist
 ## 💡 Resume
 
 You can view or download my CV here:  
-👉 [Dolev Sivan CV](./Dolev_Sivan_CV.pdf)
+👉 [Dolev Sivan CV](docs/Dolev_Sivan_CV.pdf)
 
 ---
 
