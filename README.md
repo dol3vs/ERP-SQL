@@ -50,6 +50,8 @@ This is the final destination for clean, structured business data:
 
 ---
 
+```
+
 ## 📁 Project Structure
 
 Office-integration-sql/
@@ -67,7 +69,10 @@ Office-integration-sql/
 ├── queries/
 │   └── example_queries.sql         🔍 Sample SQL queries
 
+
 ```
+
+---
 
 ## 🧩 Entity-Relationship Diagram
 
