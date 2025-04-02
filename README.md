@@ -1,23 +1,25 @@
 
-👋 Hi, I’m Dolev — a Project Manager and SQL Server DBA passionate about clean data architecture, performance optimization, and automation.
-
-💾 I work with Microsoft SQL Server to build data pipelines, optimize large-scale ERP integrations, and deliver high-availability systems.
-
-🧠 This repo showcases a two-database SQL Server system I built to:
-- Import ERP data
-- Normalize and filter through views
-- Automate transformation via stored procedures
-- Present structured entities for BI and dashboards
-
-🚀 I'm always learning, improving, and building tools that help businesses turn data into action.
-
-
 # 🧠 ERP Integration System (SQL Server)
 
 This project showcases a two-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. The system is split into two logical layers: 
 **OfficeIntegration** (ETL Layer) and **Office** (Presentation Layer).
 
 ---
+
+## 👋 About Me
+
+Hi, I’m Dolev — a Project Manager and SQL Server developer and project coordinator with experience building data pipelines, integrating ERP systems, performance optimization, automation and supporting business dashboards.
+💾 I specialize in Microsoft SQL Server, automation, and translating business data into clean, usable tools.
+
+🧠 This repo showcases a three-database SQL Server system I built to:
+- Import ERP data (demo db)
+- Normalize and filter through views (Office Integration db)
+- Automate transformation via stored procedures (Office Integration db)
+- Present structured entities for BI and dashboards (Office db)
+
+---
+
+🚀 I'm always learning, improving, and building tools that help businesses turn data into action.
 
 ## 📦 Databases Overview
 
