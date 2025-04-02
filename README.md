@@ -38,6 +38,26 @@ This is the final destination for clean, structured business data:
 - No transformation logic — only clean data from OfficeIntegration
 - Drives dashboards and mobile access for clients
 
+- ## 🌐 API Integration Procedures
+
+This system includes stored procedures that handle data exchange with external services using SQL Server’s built-in capabilities.
+
+### 📤 `SP_SendDataToAPI`
+A stored procedure that sends transformed data (e.g., clients or documents) to an external system using HTTP `POST`.
+
+- Uses `sp_OACreate`, `sp_OAMethod`, and `sp_OASetProperty` for native SQL HTTP calls
+- Sends JSON payloads formatted from ERP or integration tables
+- Logs response status and error handling to a custom logging table
+
+### 📥 `SP_ImportFromAPI`
+Fetches external data (e.g., delivery status, prices, or user details) via HTTP `GET` or `POST`.
+
+- Consumes external API endpoints using built-in SQL tools
+- Parses JSON into temporary or staging tables for processing
+- Can be scheduled with SQL Server Agent
+
+These procedures are typically used in the `OfficeIntegration` database and are part of the automated flow that keeps external data synced with the local ERP model.
+
 ---
 
 ## 🛠️ Technologies Used
