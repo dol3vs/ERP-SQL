@@ -38,9 +38,10 @@ This is the presentation layer used by BI tools, dashboards, and client applicat
 ## 🛠️ Technologies Used
 
 - Microsoft SQL Server 2022
-- T-SQL (Views, Stored Procedures, UDFs)
+- T-SQL (views, stored procedures, functions, tables)
+- SQL Server Agent & Profiler
+- API (GET/POST) data integration
 - Entity-Relationship Design
-- Manual ETL Logic via Stored Procedures and Views
 
 ---
 
@@ -62,6 +63,18 @@ Office-integration-sql/
 │   └── example_reports.sql         🔍 Sample SQL queries
 
 ```
+
+## 🧩 Entity-Relationship Diagram
+
+Visual schema (click to view):  
+➡️ [View ERD via dbdiagram.io](https://dbdiagram.io)  
+Or paste from: [`erd/office_erd.dbml`](./erd/office_erd.dbml)
+
+---
+
+## 🔍 Example SQL Queries
+
+Some sample queries from the project: [`queries/example_queries.sql`](./queries/example_queries.sql)
 
 ---
 
@@ -94,4 +107,5 @@ Database Developer & IT Support Specialist
 
 ## 📄 License
 
-This project is for educational and professional portfolio use.
+This project is part of a educational and professional portfolio. 
+All content is for demonstration purposes only.
