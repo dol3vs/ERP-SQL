@@ -61,7 +61,7 @@ Office-integration-sql/
 ├── erd/
 │   └── Office_erd.dbml             🧭 ERD diagram file (for dbdiagram.io)
 ├── queries/
-│   └── example_reports.sql         🔍 Sample SQL queries
+│   └── example_queries.sql         🔍 Sample SQL queries
 
 ```
 
