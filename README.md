@@ -109,14 +109,14 @@ Database Developer & IT Support Specialist
 
 ---
 
+## 💡 Resume
+
+You can view or download my CV here:  
+👉 [Dolev Sivan CV](./Dolev_Sivan_CV.pdf)
+
+---
+
 ## 📄 License
 
 This project is part of a educational and professional portfolio. 
 All content is for demonstration purposes only.
-
----
-
-## 📄 Resume
-
-You can view or download my CV here:  
-👉 [Dolev Sivan CV](./Dolev_Sivan_CV.pdf)
