@@ -17,19 +17,30 @@
 
 ---
 
-## 📦 Databases Overview
+## 🗂️ Databases Overview
 
-### 1. `OfficeIntegration`
-This database is responsible for importing raw ERP data and preparing it for consumption.
+### 1. `ERP` – Raw External Source
+This database simulates the external ERP system. It contains raw, unfiltered business data such as:
+- Clients, Agents, Products, Orders
+- Original ERP document tables and fields
+- Used only for import into OfficeIntegration
 
-- **Views**: Filter and transform ERP data into business entities
-- **Stored Procedures**: Automate import processes
-- **Functions**: Utility calculations and business logic
+---
 
-### 2. `Office`
-This is the presentation layer used by BI tools, dashboards, and client applications.
+### 2. `OfficeIntegration` – ETL Layer
+Responsible for pulling and transforming ERP data:
+- Connects to ERP or flat-file sources via views or APIs
+- Filters and normalizes data using SQL Server views
+- Contains stored procedures and functions for transformation logic
+- Outputs clean entities to be inserted into the Office DB
 
-- **Tables**: Final, cleaned data for business users (`Agents`, `Clients`, `Products`, `DocumentsOutMain`, etc.)
+---
+
+### 3. `Office` – Presentation Layer
+This is the final destination for clean, structured business data:
+- Contains tables ready for use by BI dashboards, apps, or reports
+- No transformation logic — only clean data from OfficeIntegration
+- Drives dashboards and mobile access for clients
 
 ---
 
