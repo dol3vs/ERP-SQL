@@ -1,8 +1,9 @@
 
 # 🧠 ERP Integration System (SQL Server)
 
-This project showcases a two-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. The system is split into two logical layers: 
-**OfficeIntegration** (ETL Layer) and **Office** (Presentation Layer).
+This project showcases a two-database architecture designed for importing, processing, and presenting ERP data using Microsoft SQL Server 2022. 
+The system is split into three logical layers: 
+**OfficeIntegration** (processing Layer) / **Office** (Presentation Layer) / **ERP** (importing Layer).
 
 ---
 
