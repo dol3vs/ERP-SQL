@@ -22,20 +22,20 @@ This repository contains a sample ERP-style SQL Server database with demo data f
 
 ## 🗂️ Databases Overview
 
-### 1. `ERP` – Raw External Source
+### 1. `Demo_ERP` – Raw External Source
 This database simulates the external ERP system. It contains raw, unfiltered business data such as:
 - Clients, Agents, Products, Orders
 - Original ERP document tables and fields
 - Used only for import into OfficeIntegration
 
-### 2. `OfficeIntegration` – ETL Layer
+### 2. `DEMO_Integration` – ETL Layer
 Responsible for pulling and transforming ERP data:
 - Connects to ERP or flat-file sources via views or APIs
 - Filters and normalizes data using SQL Server views
 - Contains stored procedures and functions for transformation logic
 - Outputs clean entities to be inserted into the Office DB
 
-### 3. `Office` – Presentation Layer
+### 3. `DEMO` – Presentation Layer
 This is the final destination for clean, structured business data:
 - Contains tables ready for use by BI dashboards, apps, or reports
 - No transformation logic — only clean data from OfficeIntegration
