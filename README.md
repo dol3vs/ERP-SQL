@@ -136,7 +136,7 @@ Some sample queries from the project: [`queries/example_queries.sql`](./queries/
 
 ---
 
-📘 Example Use Cases
+## 📘 Example Use Cases
 This project simulates a realistic ERP data integration pipeline. Here are some example scenarios that demonstrate its capabilities:
 
 🧾 1. Sync Client Master Data to External Systems
@@ -174,7 +174,7 @@ Use Case: Fully automate the daily data exchange cycle between internal ERP tabl
 
 ---
 
-🚀 How to Use This Repo
+## 🚀 How to Use This Repo
 This repo contains a full simulation of an ERP data integration pipeline using SQL Server and PowerShell.
 
 ✅ Requirements
