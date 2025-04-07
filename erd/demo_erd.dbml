@@ -1,0 +1,47 @@
+// DBML for Demo_ERP
+
+Table Clients {
+  ClientID int [pk]
+  ClientName nvarchar
+  Phone nvarchar
+  Email nvarchar
+  Address nvarchar
+  CreatedAt datetime
+}
+
+Table Agents {
+  AgentID int [pk]
+  AgentName nvarchar
+  Email nvarchar
+  Phone nvarchar
+  Region nvarchar
+}
+
+Table Products {
+  ProductID int [pk]
+  ProductName nvarchar
+  Category nvarchar
+  Price decimal
+  StockQty int
+}
+
+Table Orders {
+  OrderID int [pk]
+  ClientID int
+  OrderDate date
+  TotalAmount decimal
+  Status nvarchar
+}
+
+Table OrderDetails {
+  OrderDetailID int [pk]
+  OrderID int
+  ProductID int
+  Quantity int
+  UnitPrice decimal
+}
+
+// Relationships
+Ref: Orders.ClientID > Clients.ClientID
+Ref: OrderDetails.OrderID > Orders.OrderID
+Ref: OrderDetails.ProductID > Products.ProductID

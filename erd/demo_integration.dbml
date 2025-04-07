@@ -1,0 +1,45 @@
+// DBML for DEMO_Integration
+
+Table vw_Clients_Clean {
+  ClientID int
+  ClientName nvarchar
+  Phone nvarchar
+  Email nvarchar
+  Address nvarchar
+}
+
+Table vw_Orders_Enriched {
+  OrderID int
+  ClientID int
+  ClientName nvarchar
+  Region nvarchar
+  OrderDate date
+  TotalAmount decimal
+  Status nvarchar
+}
+
+Table vw_ProductSales {
+  ProductID int
+  ProductName nvarchar
+  TotalSold int
+  Revenue decimal
+}
+
+Table vw_ProductInventory {
+  ProductID int
+  ProductName nvarchar
+  Category nvarchar
+  StockQty int
+  TotalOrdered int
+  AvailableStock int
+}
+
+Table ApiLog {
+  LogID int [pk]
+  Endpoint nvarchar
+  Payload nvarchar
+  ResponseText nvarchar
+  StatusCode int
+  ErrorMessage nvarchar
+  CreatedAt datetime
+}

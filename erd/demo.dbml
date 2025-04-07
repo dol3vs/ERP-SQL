@@ -1,0 +1,22 @@
+// DBML for DEMO (Presentation Layer)
+
+Table Clients {
+  ClientID int [pk]
+  ClientName nvarchar
+  Phone nvarchar
+  Email nvarchar
+  Address nvarchar
+}
+
+Table ProductSales {
+  ProductID int [pk]
+  ProductName nvarchar
+  TotalSold int
+  Revenue decimal
+}
+
+Table ClientOrderSummary {
+  ClientID int [pk]
+  TotalOrders int
+  TotalSpent decimal
+}
