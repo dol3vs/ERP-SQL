@@ -76,22 +76,28 @@ These procedures are typically used in the `OfficeIntegration` database and are 
 ## 📁 Project Structure
 
 ```
-
-Office-integration-sql/
-├── README.md                       ✅ Project overview
-├── erp/
-│   └── schema/                     📂 Tables from ERP DB
-├── Office/
-│   └── schema/                     📂 Tables from Office DB
-├── Officeintegration/
+ERP-SQL/
+│
+├── erp_demo/
+│   ├── tables/                     📂 Tables from ERP DB
+│   └── seed_data/
+│
+├── demo_integration/
 │   ├── views/                      📂 ERP views
 │   ├── procedures/                 📂 Stored procedures
-│   └── functions/                  📂 User-defined functions
-├── erd/
-│   └── Office_erd.dbml             🧭 ERD diagram file (for dbdiagram.io)
-├── queries/
-│   └── example_queries.sql         🔍 Sample SQL queries
-
+│   ├── functions/                  📂 User-defined functions
+│
+├── demo/
+│   ├── dimensions/
+│   ├── facts/
+│   └── load_procedures/
+│
+├── diagrams/                       🧭 ERD diagram file
+│   ├── erd_erp_demo.png
+│   ├── erd_demo_integration.png
+│   └── erd_demo.png
+│
+└── README.md                       ✅ Project overview
 
 ```
 
