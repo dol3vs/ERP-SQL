@@ -71,7 +71,6 @@ These procedures are typically used in the `OfficeIntegration` database and are 
 - **demo_integration/** – Contains views, stored procedures, and functions
 - **demo/** – Final cleaned tables used for dashboards and reporting
 - **erd/** – Entity-Relationship Diagrams (Markdown + Images)
-- **docs/** – Architecture and workflow explanations
 
 ```
 
