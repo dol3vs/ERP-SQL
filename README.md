@@ -114,10 +114,23 @@ ERP-SQL/
 
 ## 🧩 Entity-Relationship Diagram
 
-Visual schema (click to view):  
-📌 **ERD Diagram** – (erd/demo_integration.dbml)
-📌 **ERD Diagram** – (erd/demo_integration.dbml)
-📌 **ERD Diagram** – (erd/demo_integration.dbml)
+This project includes DBML files to visualize the structure of each database using dbdiagram.io.
+
+🔹 View ERDs Online
+You can import these files directly into https://dbdiagram.io to see the schema visually:
+
+Demo_ERP	demo_erd.dbml
+DEMO_Integration	demo_integration.dbml
+DEMO (Presentation)	demo.dbml
+
+🛠 How to Use
+Go to https://dbdiagram.io
+
+Click "New Diagram"
+
+Upload or paste the contents of the .dbml file
+
+Explore relationships and export as PNG, PDF, or SQL
 
 ![Untitled](https://github.com/user-attachments/assets/e7828ce2-b4b3-40d0-b8eb-4dd2dc303c38)
 
