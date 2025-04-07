@@ -121,7 +121,11 @@ Visual schema (click to view):
 📌 **ERD Diagram** – [Open on dbdiagram.io](https://dbdiagram.io/d/ERP-SQL-67eced264f7afba1840ceac6)
 ➡️ Or paste from: [`erd/office_erd.dbml`](./erd/office_erd.dbml)
 
-![ERD Diagram](https://github.com/user-attachments/assets/4992fb8a-4c20-4f6f-b34a-4ea77e5cc304)
+![erd_demo_erp](https://github.com/user-attachments/assets/ece8b8ce-c865-4e1d-9305-19c2a8836b85)
+
+![erd_demo_integration](https://github.com/user-attachments/assets/033238a3-9d32-4846-96ff-c21ad220c9ff)
+
+![erd_demo](https://github.com/user-attachments/assets/291da87d-4205-452c-970d-6e5136ec93f1)
 
 ---
 
