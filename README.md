@@ -146,12 +146,68 @@ Some sample queries from the project: [`queries/example_queries.sql`](./queries/
 
 ---
 
-## 🚀 How to Use
+🚀 How to Use This Repo
+This repo contains a full simulation of an ERP data integration pipeline using SQL Server and PowerShell.
 
-1. Open SQL Server Management Studio (SSMS)
-2. Execute scripts in `/demo_integration` to create integration layer
-3. Execute scripts in `/demo` to create the final layer
-4. Run views or procedures to simulate the data flow
+✅ Requirements
+Microsoft SQL Server (Developer or Express)
+
+SQL Server Management Studio (SSMS)
+
+PowerShell 5.0+ with SqlServer module
+
+Optional: Git, dbdiagram.io, SQL Server Agent
+
+⚙️ Setup Instructions
+1. Clone the Repo
+bash
+Copy
+Edit
+git clone https://github.com/dol3vs/ERP-SQL.git
+cd ERP-SQL
+2. Create Databases
+In SSMS, create the following databases:
+
+Demo_ERP
+
+DEMO_Integration
+
+DEMO
+
+3. Run the Scripts
+Execute the .sql scripts in the following order:
+
+In Demo_ERP:
+
+Create tables → demo_erp/tables/
+
+Insert sample data → demo_erp/sample_data/
+
+In DEMO_Integration:
+
+Create functions → demo_integration/functions/
+
+Create views → demo_integration/views/
+
+Create procedures → demo_integration/procedures/
+
+Create log table → demo_integration/tables/create_api_log.sql
+
+In DEMO:
+
+Create final tables and indexes → demo/tables/, demo/indexes/
+
+🔁 API Integration (Optional)
+You can simulate external API calls using the PowerShell scripts in:
+
+Copy
+Edit
+powershell_scripts/
+Send-ClientDataToAPI.ps1 – sends client data to an API
+
+Import-DataFromAPI.ps1 – fetches external status and logs to SQL
+
+💡 Use SQL Server Agent or Task Scheduler to automate.
 
 ---
 
