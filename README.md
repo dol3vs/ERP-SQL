@@ -70,10 +70,17 @@ These procedures are typically used in the `OfficeIntegration` database and are 
 - SQL Server Agent & Profiler
 - API (GET/POST) data integration
 - Entity-Relationship Design
+- Git / GitHub
 
 ---
 
 ## 📁 Project Structure
+
+- **demo_erp/** – Simulates raw ERP tables and sample data
+- **demo_integration/** – Contains views, stored procedures, and functions
+- **demo/** – Final cleaned tables used for dashboards and reporting
+- **erd/** – Entity-Relationship Diagrams (Markdown + Images)
+- **docs/** – Architecture and workflow explanations
 
 ```
 
@@ -166,4 +173,9 @@ You can view or download my CV here:
 
 ### 🔐 Disclaimer
 All data is fictional and for demonstration only. No proprietary, personal, or sensitive information is included.
+
+---
+
+## 📝 License
+MIT License
 
