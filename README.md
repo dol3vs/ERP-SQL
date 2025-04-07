@@ -136,13 +136,41 @@ Some sample queries from the project: [`queries/example_queries.sql`](./queries/
 
 ---
 
-## 🧪 Example Use Cases
+📘 Example Use Cases
+This project simulates a realistic ERP data integration pipeline. Here are some example scenarios that demonstrate its capabilities:
 
-- Import ERP stock, clients, and orders
-- Normalize and filter data through views
-- Generate structured entities for Office
-- Automate import processes via stored procedures
-- Use Office tables for reporting and dashboards
+🧾 1. Sync Client Master Data to External Systems
+Source: vw_Clients_Clean
+
+Process: SP_SendDataToAPI
+
+Use Case: Clean client records from the ERP are sent to an external CRM or order processing system using an HTTP API.
+
+📦 2. Import Delivery Status from Logistics API
+Target Table: #ApiTemp (temporary)
+
+Process: SP_ImportFromAPI
+
+Use Case: Fetches real-time delivery or order tracking info via GET request, and logs it for integration into dashboards or reports.
+
+📊 3. Generate Sales Analytics from Raw Orders
+View: vw_ProductSales
+
+Table: ProductSales
+
+Use Case: Summarizes total sales and revenue per product, making it ready for BI tools or executive dashboards.
+
+👥 4. Calculate Client Lifetime Value
+Procedure: usp_GenerateClientOrderSummary
+
+Table: ClientOrderSummary
+
+Use Case: Aggregates all order history per client to analyze profitability and identify key customers.
+
+🔁 5. Automate Nightly Integration Job
+Tools: SQL Server Agent + SP_ImportFromAPI + SP_SendDataToAPI
+
+Use Case: Fully automate the daily data exchange cycle between internal ERP tables and external APIs for real-time sync.
 
 ---
 
