@@ -112,25 +112,20 @@ ERP-SQL/
 
 ---
 
-## 🧩 Entity-Relationship Diagram
+## 📐 Entity-Relationship Diagrams (ERDs)
 
-This project includes DBML files to visualize the structure of each database using dbdiagram.io.
+ERD files in `.dbml` format are available for all database layers. You can view them on [dbdiagram.io](https://dbdiagram.io).
 
-🔹 View ERDs Online
-You can import these files directly into https://dbdiagram.io to see the schema visually:
+📁 **Browse all ERD files:**  
+👉 [ERP-SQL/erd](https://github.com/dol3vs/ERP-SQL/tree/main/erd)
 
-Demo_ERP	demo_erd.dbml
-DEMO_Integration	demo_integration.dbml
-DEMO (Presentation)	demo.dbml
+### ERD Files
+| Database           | File Name                  |
+|--------------------|----------------------------|
+| Demo_ERP           | [`demo_erd.dbml`](https://github.com/dol3vs/ERP-SQL/blob/main/erd/demo_erd.dbml) |
+| DEMO_Integration   | [`demo_integration.dbml`](https://github.com/dol3vs/ERP-SQL/blob/main/erd/demo_integration.dbml) |
+| DEMO (Presentation)| [`demo.dbml`](https://github.com/dol3vs/ERP-SQL/blob/main/erd/demo.dbml) |
 
-🛠 How to Use
-Go to https://dbdiagram.io
-
-Click "New Diagram"
-
-Upload or paste the contents of the .dbml file
-
-Explore relationships and export as PNG, PDF, or SQL
 
 ![Untitled](https://github.com/user-attachments/assets/e7828ce2-b4b3-40d0-b8eb-4dd2dc303c38)
 
