@@ -76,28 +76,39 @@ These procedures are typically used in the `OfficeIntegration` database and are 
 ## 📁 Project Structure
 
 ```
+
 ERP-SQL/
-│
-├── erp_demo/
-│   ├── tables/                     📂 Tables from ERP DB
-│   └── seed_data/
-│
-├── demo_integration/
-│   ├── views/                      📂 ERP views
-│   ├── procedures/                 📂 Stored procedures
-│   ├── functions/                  📂 User-defined functions
-│
-├── demo/
-│   ├── dimensions/
-│   ├── facts/
-│   └── load_procedures/
-│
-├── diagrams/                       🧭 ERD diagram file
-│   ├── erd_erp_demo.png
-│   ├── erd_demo_integration.png
-│   └── erd_demo.png
-│
-└── README.md                       ✅ Project overview
+├── README.md
+├── LICENSE
+├── .gitignore
+├── erd/
+│   ├── erd_demo_erp.md
+│   ├── erd_demo_integration.md
+│   ├── erd_demo.md
+│   └── images/
+│       ├── erd_demo_erp.png
+│       ├── erd_demo_integration.png
+│       └── erd_demo.png
+├── demo_erp/                # Raw external source
+│   ├── tables/
+│   │   └── create_clients.sql
+│   └── sample_data/
+│       └── insert_clients.sql
+├── demo_integration/        # ETL Layer
+│   ├── views/
+│   │   └── vw_clients_clean.sql
+│   ├── procedures/
+│   │   └── usp_import_clients.sql
+│   └── functions/
+│       └── fn_standardize_phone.sql
+├── demo/                    # Presentation Layer
+│   ├── tables/
+│   │   └── create_clients_final.sql
+│   └── indexes/
+│       └── idx_clients_id.sql
+└── docs/
+    └── architecture.md
+
 
 ```
 
