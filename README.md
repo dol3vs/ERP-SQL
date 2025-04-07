@@ -1,7 +1,4 @@
 # 🧠 ERP Integration System (SQL Server)
-👋 Hi, I’m Dolev — a SQL Server Developer and Project Coordinator with a passion for building practical, real-world data systems.
-
-💾 This project demonstrates a two-database architecture built to solve a common business challenge: making ERP data accessible, actionable, and performance-optimized for daily business use.
 
 🔍 The system:
 - Connects to raw ERP sources via views and APIs
@@ -143,8 +140,8 @@ Some sample queries from the project: [`queries/example_queries.sql`](./queries/
 ## 🚀 How to Use
 
 1. Open SQL Server Management Studio (SSMS)
-2. Execute scripts in `/Officeintegration` to create integration layer
-3. Execute scripts in `/Office` to create the final layer
+2. Execute scripts in `/demo_integration` to create integration layer
+3. Execute scripts in `/demo` to create the final layer
 4. Run views or procedures to simulate the data flow
 
 ---
