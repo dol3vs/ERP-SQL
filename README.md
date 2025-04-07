@@ -1,5 +1,8 @@
+## 📘 About This Project
 
+This repository contains a sample ERP-style SQL Server database with demo data for learning and portfolio purposes. 
 
+---
 
 # 🧠 ERP Integration System (SQL Server)
 👋 Hi, I’m Dolev — a SQL Server Developer and Project Coordinator with a passion for building practical, real-world data systems.
@@ -144,7 +147,6 @@ You can view or download my CV here:
 
 ---
 
-## 📄 License
+### 🔐 Disclaimer
+All data is fictional and for demonstration only. No proprietary, personal, or sensitive information is included.
 
-This project is part of a educational and professional portfolio. 
-All content is for demonstration purposes only.
