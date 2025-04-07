@@ -1,0 +1,24 @@
+# Ignore SQL Server backup and temp files
+*.bak
+*.trn
+*.ldf
+*.mdf
+
+# Ignore logs and secrets
+*.log
+.env
+*.config
+
+# Ignore compiled PowerShell files
+*.ps1xml
+*.psm1
+*.psd1
+
+# Ignore system and temp files
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# Ignore zip exports
+*.zip
