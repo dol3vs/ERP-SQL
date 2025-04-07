@@ -118,7 +118,7 @@ ERP-SQL/
 ## 🧩 Entity-Relationship Diagram
 
 Visual schema (click to view):  
-📌 **ERD Diagram** – [`erd/office_erd.dbml`](./erd/demo_erd.dbml)
+📌 **ERD Diagram** – [`erd/demo_erd.dbml`](./erd/demo_erd.dbml)
 
 ![Untitled](https://github.com/user-attachments/assets/e7828ce2-b4b3-40d0-b8eb-4dd2dc303c38)
 
