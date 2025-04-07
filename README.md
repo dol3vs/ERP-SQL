@@ -125,13 +125,10 @@ ERD files in `.dbml` format are available for all database layers. You can view 
 
 ---
 
-
----
-
 ## 👨‍💻 Author
 
 **Dolev Sivan**  
-Database Developer & IT Support Specialist  
+SQL Server Database Manager | Solutions Developer | ERP & App Integration Expert
 [LinkedIn](https://www.linkedin.com/in/dol3vs)
 
 ---
@@ -146,8 +143,4 @@ You can view or download my CV here:
 ### 🔐 Disclaimer
 All data is fictional and for demonstration only. No proprietary, personal, or sensitive information is included.
 
----
-
-## 📝 License
-MIT License
-
+Made with ☕ and SQL by @dol3vs
