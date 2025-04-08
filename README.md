@@ -138,8 +138,8 @@ ERD files in `.dbml` format are available for all database layers. You can view 
 ## 👨‍💻 Author
 
 **Dolev Sivan**  
-SQL Server Database Manager | Solutions Developer | ERP & App Integration Expert
-[LinkedIn](https://www.linkedin.com/in/dol3vs)
+SQL Server Database Manager | Solutions Developer | ERP & App Integration Expert   
+👉 [LinkedIn](https://www.linkedin.com/in/dol3vs)
 
 ---
 
