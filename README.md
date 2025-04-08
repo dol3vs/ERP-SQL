@@ -55,6 +55,16 @@ ERP-SQL/
 ├── erd/                  -- ER diagrams in .dbml format for dbdiagram.io
 ├── docs/                 -- Documentation (API examples, architecture)
 ├── powershell_scripts/   -- PowerShell alternatives for API calls
+│   ├── Import-DataFromAPI.ps1
+│   ├── Send-ClientDataToAPI.ps1
+│   └── tests/
+│       ├── Test-Import-DataFromAPI.Tests.ps1
+│       └── Test-Send-ClientDataToAPI.Tests.ps1
+├── tests/
+│    └── Test_usp_GenerateClientOrderSummary.sql
+└── .github/
+    └── workflows/
+        └── ci.yml
 
 ```
 
