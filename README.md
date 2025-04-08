@@ -140,6 +140,18 @@ You can view or download my CV here:
 
 ---
 
+## 📜 Contributing
+
+We welcome contributions from the community! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+
+---
+
+## 📜 Code of Conduct
+
+Please note that this project adheres to a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
+
+---
+
 ### 🔐 Disclaimer
 All data is fictional and for demonstration only. No proprietary, personal, or sensitive information is included.
 
