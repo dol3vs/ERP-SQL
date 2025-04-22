@@ -1,24 +1,67 @@
-# Ignore SQL Server backup and temp files
+# ───────────────────────────────
+# SQL Server backup and temp files
+# ───────────────────────────────
 *.bak
 *.trn
 *.ldf
 *.mdf
 
-# Ignore logs and secrets
+# ───────────────────────────────
+# Logs and secrets
+# ───────────────────────────────
 *.log
 .env
 *.config
+secrets.json
 
-# Ignore compiled PowerShell files
+# ───────────────────────────────
+# Compiled PowerShell files
+# ───────────────────────────────
 *.ps1xml
 *.psm1
 *.psd1
 
-# Ignore system and temp files
+# ───────────────────────────────
+# Python-related
+# ───────────────────────────────
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# ───────────────────────────────
+# Node / JavaScript (if used for automation or API tests)
+# ───────────────────────────────
+node_modules/
+dist/
+build/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# ───────────────────────────────
+# Visual Studio Code & JetBrains IDEs
+# ───────────────────────────────
+.vscode/
+.idea/
+
+# ───────────────────────────────
+# System and temp files
+# ───────────────────────────────
 .DS_Store
 Thumbs.db
 *.tmp
 ~$*
 
-# Ignore zip exports
+# ───────────────────────────────
+# Archive and generated exports
+# ───────────────────────────────
 *.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ───────────────────────────────
+# DB Diagram / ERD tools
+# ───────────────────────────────
+*.dbml
+*.dbdiagram.json
