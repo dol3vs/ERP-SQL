@@ -92,7 +92,7 @@ ERD files in `.dbml` format are available for all database layers. You can view 
 ### ✅ Requirements
 - SQL Server (Developer or Express)
 - SSMS (SQL Server Management Studio)
-- PowerShell 5+ with `SqlServer` module (optional for API)
+- PowerShell with `SqlServer` module (optional for API)
 
 ### ⚙️ Setup Steps
 
