@@ -62,9 +62,6 @@ ERP-SQL/
 │       └── Test-Send-ClientDataToAPI.Tests.ps1
 ├── tests/
 │    └── Test_usp_GenerateClientOrderSummary.sql
-└── .github/
-    └── workflows/
-        └── ci.yml
 
 ```
 
@@ -147,18 +144,6 @@ SQL Server Database Manager | Solutions Developer | ERP & App Integration Expert
 
 You can view or download my CV here:  
 👉 [Dolev Sivan CV](docs/Dolev_Sivan_CV.pdf)
-
----
-
-## 📜 Contributing
-
-We welcome contributions from the community! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
-
----
-
-## 📜 Code of Conduct
-
-Please note that this project adheres to a [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
 
 ---
 
